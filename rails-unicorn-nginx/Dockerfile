@@ -1,6 +1,7 @@
 FROM greenygh0st/ruby:2.2.0
 MAINTAINER Dale Myszewski <iamseapy@gmail.com>
 
+#Make sure everything is up-to-date
 RUN apt-get update
 
 # Install nodejs

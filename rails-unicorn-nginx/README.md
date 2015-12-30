@@ -14,7 +14,10 @@ Easy useable docker for rails. more configuration, affordable production.
 ```
 # Dockerfile
 FROM greenygh0st/rails-unicorn-nginx:v1.0-ruby2.2.0-nginx1.6.0
-MAINTAINER seapy(iamseapy@gmail.com)
+MAINTAINER Dale Myszewski (dale@daleslab.com)
+
+#Again make sure everything is up-to-date
+RUN apt-get update
 
 # Add here your preinstall lib(e.g. imagemagick, mysql lib, pg lib, ssh config)
 
