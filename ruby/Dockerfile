@@ -17,11 +17,11 @@ RUN cd /tmp &&\
   cd ruby-install-0.4.3/ &&\
   make install
 
-# Install MRI Ruby 2.2.0
-RUN ruby-install ruby 2.2.0
+# Install MRI Ruby 2.3.0
+RUN ruby-install ruby 2.3.0
 
 # Add Ruby binaries to $PATH
-ENV PATH /opt/rubies/ruby-2.2.0/bin:$PATH
+ENV PATH /opt/rubies/ruby-2.3.0/bin:$PATH
 
 # Add options to gemrc
 RUN echo "gem: --no-document" > ~/.gemrc
