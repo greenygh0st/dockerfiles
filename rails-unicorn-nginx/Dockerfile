@@ -1,4 +1,4 @@
-FROM greenygh0st/ruby:2.2.0
+FROM greenygh0st/ruby:2.3.1
 MAINTAINER Dale Myszewski <iamseapy@gmail.com>
 
 #Make sure everything is up-to-date
